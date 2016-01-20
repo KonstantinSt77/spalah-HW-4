@@ -23,7 +23,7 @@
 		8BC60FB21C50006C004790C9 /* Judge.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC60FA81C50006C004790C9 /* Judge.m */; };
 		8BC60FB31C50006C004790C9 /* Lawyer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC60FAA1C50006C004790C9 /* Lawyer.m */; };
 		8BC60FB41C50006C004790C9 /* Programmer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC60FAC1C50006C004790C9 /* Programmer.m */; };
-		8BC60FBA1C501395004790C9 /* Human+WeightCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC60FB91C501395004790C9 /* Human+WeightCategory.m */; };
+		8BC60FBD1C5015D7004790C9 /* Human+WeightCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC60FBC1C5015D7004790C9 /* Human+WeightCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,8 +73,8 @@
 		8BC60FAA1C50006C004790C9 /* Lawyer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lawyer.m; sourceTree = "<group>"; };
 		8BC60FAB1C50006C004790C9 /* Programmer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Programmer.h; sourceTree = "<group>"; };
 		8BC60FAC1C50006C004790C9 /* Programmer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Programmer.m; sourceTree = "<group>"; };
-		8BC60FB81C501395004790C9 /* Human+WeightCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Human+WeightCategory.h"; path = "../Human+WeightCategory.h"; sourceTree = "<group>"; };
-		8BC60FB91C501395004790C9 /* Human+WeightCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Human+WeightCategory.m"; path = "../Human+WeightCategory.m"; sourceTree = "<group>"; };
+		8BC60FBB1C5015D7004790C9 /* Human+WeightCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Human+WeightCategory.h"; sourceTree = "<group>"; };
+		8BC60FBC1C5015D7004790C9 /* Human+WeightCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Human+WeightCategory.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,8 +139,8 @@
 				8BC60FAC1C50006C004790C9 /* Programmer.m */,
 				8B4ACEE81BE8B6420012AAC3 /* AppDelegate.h */,
 				8B4ACEE91BE8B6420012AAC3 /* AppDelegate.m */,
-				8BC60FB81C501395004790C9 /* Human+WeightCategory.h */,
-				8BC60FB91C501395004790C9 /* Human+WeightCategory.m */,
+				8BC60FBB1C5015D7004790C9 /* Human+WeightCategory.h */,
+				8BC60FBC1C5015D7004790C9 /* Human+WeightCategory.m */,
 				8B4ACEEB1BE8B6420012AAC3 /* ViewController.h */,
 				8B4ACEEC1BE8B6420012AAC3 /* ViewController.m */,
 				8B4ACEEE1BE8B6420012AAC3 /* Main.storyboard */,
@@ -327,7 +327,7 @@
 				8BC60FB21C50006C004790C9 /* Judge.m in Sources */,
 				8BC60FB01C50006C004790C9 /* Doctor.m in Sources */,
 				8BC60FB31C50006C004790C9 /* Lawyer.m in Sources */,
-				8BC60FBA1C501395004790C9 /* Human+WeightCategory.m in Sources */,
+				8BC60FBD1C5015D7004790C9 /* Human+WeightCategory.m in Sources */,
 				8B4ACEE71BE8B6420012AAC3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

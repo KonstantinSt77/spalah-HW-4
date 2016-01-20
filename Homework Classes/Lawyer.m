@@ -10,18 +10,21 @@
 
 @implementation Lawyer
 - (NSString *)name {
-    return @"Hello im a Lawyer";
+    NSLog(@"Hello im a Lawyer");
+    return 0;
 }
 
 
 - (NSInteger *)age
 {
-    return 33;
+    NSLog(@"33");
+    return 0;
 }
 
 - (NSString *)employer
 {
-    return @"Client";
+     NSLog(@"Client");
+    return 0;
 }
 
 

@@ -15,11 +15,14 @@
 		8B4ACEF51BE8B6420012AAC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B4ACEF31BE8B6420012AAC3 /* LaunchScreen.storyboard */; };
 		8B4ACF001BE8B6420012AAC3 /* Homework_ClassesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4ACEFF1BE8B6420012AAC3 /* Homework_ClassesTests.m */; };
 		8B4ACF0B1BE8B6420012AAC3 /* Homework_ClassesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4ACF0A1BE8B6420012AAC3 /* Homework_ClassesUITests.m */; };
-		8B4ACF1A1BE8B6A50012AAC3 /* Human.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4ACF191BE8B6A50012AAC3 /* Human.m */; };
-		8B4ACF1D1BE8B6DE0012AAC3 /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4ACF1C1BE8B6DE0012AAC3 /* Doctor.m */; };
-		8B4ACF201BE8B6FA0012AAC3 /* Programmer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4ACF1F1BE8B6FA0012AAC3 /* Programmer.m */; };
-		8B4ACF231BE8B7560012AAC3 /* Lawyer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4ACF221BE8B7560012AAC3 /* Lawyer.m */; };
-		8B4ACF261BE8B77C0012AAC3 /* Judge.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4ACF251BE8B77C0012AAC3 /* Judge.m */; };
+		8BC60FAD1C50006C004790C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BC60F9D1C50006C004790C9 /* Assets.xcassets */; };
+		8BC60FAE1C50006C004790C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BC60F9F1C50006C004790C9 /* LaunchScreen.storyboard */; };
+		8BC60FAF1C50006C004790C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BC60FA11C50006C004790C9 /* Main.storyboard */; };
+		8BC60FB01C50006C004790C9 /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC60FA41C50006C004790C9 /* Doctor.m */; };
+		8BC60FB11C50006C004790C9 /* Human.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC60FA61C50006C004790C9 /* Human.m */; };
+		8BC60FB21C50006C004790C9 /* Judge.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC60FA81C50006C004790C9 /* Judge.m */; };
+		8BC60FB31C50006C004790C9 /* Lawyer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC60FAA1C50006C004790C9 /* Lawyer.m */; };
+		8BC60FB41C50006C004790C9 /* Programmer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC60FAC1C50006C004790C9 /* Programmer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,16 +59,19 @@
 		8B4ACF061BE8B6420012AAC3 /* Homework ClassesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Homework ClassesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B4ACF0A1BE8B6420012AAC3 /* Homework_ClassesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Homework_ClassesUITests.m; sourceTree = "<group>"; };
 		8B4ACF0C1BE8B6420012AAC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8B4ACF181BE8B6A50012AAC3 /* Human.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Human.h; sourceTree = "<group>"; };
-		8B4ACF191BE8B6A50012AAC3 /* Human.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Human.m; sourceTree = "<group>"; };
-		8B4ACF1B1BE8B6DE0012AAC3 /* Doctor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Doctor.h; sourceTree = "<group>"; };
-		8B4ACF1C1BE8B6DE0012AAC3 /* Doctor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Doctor.m; sourceTree = "<group>"; };
-		8B4ACF1E1BE8B6FA0012AAC3 /* Programmer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Programmer.h; sourceTree = "<group>"; };
-		8B4ACF1F1BE8B6FA0012AAC3 /* Programmer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Programmer.m; sourceTree = "<group>"; };
-		8B4ACF211BE8B7560012AAC3 /* Lawyer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lawyer.h; sourceTree = "<group>"; };
-		8B4ACF221BE8B7560012AAC3 /* Lawyer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lawyer.m; sourceTree = "<group>"; };
-		8B4ACF241BE8B77C0012AAC3 /* Judge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Judge.h; sourceTree = "<group>"; };
-		8B4ACF251BE8B77C0012AAC3 /* Judge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Judge.m; sourceTree = "<group>"; };
+		8BC60F9D1C50006C004790C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BC60FA01C50006C004790C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BC60FA21C50006C004790C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		8BC60FA31C50006C004790C9 /* Doctor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Doctor.h; sourceTree = "<group>"; };
+		8BC60FA41C50006C004790C9 /* Doctor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Doctor.m; sourceTree = "<group>"; };
+		8BC60FA51C50006C004790C9 /* Human.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Human.h; sourceTree = "<group>"; };
+		8BC60FA61C50006C004790C9 /* Human.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Human.m; sourceTree = "<group>"; };
+		8BC60FA71C50006C004790C9 /* Judge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Judge.h; sourceTree = "<group>"; };
+		8BC60FA81C50006C004790C9 /* Judge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Judge.m; sourceTree = "<group>"; };
+		8BC60FA91C50006C004790C9 /* Lawyer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lawyer.h; sourceTree = "<group>"; };
+		8BC60FAA1C50006C004790C9 /* Lawyer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lawyer.m; sourceTree = "<group>"; };
+		8BC60FAB1C50006C004790C9 /* Programmer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Programmer.h; sourceTree = "<group>"; };
+		8BC60FAC1C50006C004790C9 /* Programmer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Programmer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,16 +102,6 @@
 		8B4ACED91BE8B6420012AAC3 = {
 			isa = PBXGroup;
 			children = (
-				8B4ACF181BE8B6A50012AAC3 /* Human.h */,
-				8B4ACF191BE8B6A50012AAC3 /* Human.m */,
-				8B4ACF1B1BE8B6DE0012AAC3 /* Doctor.h */,
-				8B4ACF1C1BE8B6DE0012AAC3 /* Doctor.m */,
-				8B4ACF1E1BE8B6FA0012AAC3 /* Programmer.h */,
-				8B4ACF1F1BE8B6FA0012AAC3 /* Programmer.m */,
-				8B4ACF211BE8B7560012AAC3 /* Lawyer.h */,
-				8B4ACF221BE8B7560012AAC3 /* Lawyer.m */,
-				8B4ACF241BE8B77C0012AAC3 /* Judge.h */,
-				8B4ACF251BE8B77C0012AAC3 /* Judge.m */,
 				8B4ACEE41BE8B6420012AAC3 /* Homework Classes */,
 				8B4ACEFE1BE8B6420012AAC3 /* Homework ClassesTests */,
 				8B4ACF091BE8B6420012AAC3 /* Homework ClassesUITests */,
@@ -126,6 +122,18 @@
 		8B4ACEE41BE8B6420012AAC3 /* Homework Classes */ = {
 			isa = PBXGroup;
 			children = (
+				8BC60F9D1C50006C004790C9 /* Assets.xcassets */,
+				8BC60F9E1C50006C004790C9 /* Base.lproj */,
+				8BC60FA31C50006C004790C9 /* Doctor.h */,
+				8BC60FA41C50006C004790C9 /* Doctor.m */,
+				8BC60FA51C50006C004790C9 /* Human.h */,
+				8BC60FA61C50006C004790C9 /* Human.m */,
+				8BC60FA71C50006C004790C9 /* Judge.h */,
+				8BC60FA81C50006C004790C9 /* Judge.m */,
+				8BC60FA91C50006C004790C9 /* Lawyer.h */,
+				8BC60FAA1C50006C004790C9 /* Lawyer.m */,
+				8BC60FAB1C50006C004790C9 /* Programmer.h */,
+				8BC60FAC1C50006C004790C9 /* Programmer.m */,
 				8B4ACEE81BE8B6420012AAC3 /* AppDelegate.h */,
 				8B4ACEE91BE8B6420012AAC3 /* AppDelegate.m */,
 				8B4ACEEB1BE8B6420012AAC3 /* ViewController.h */,
@@ -163,6 +171,15 @@
 				8B4ACF0C1BE8B6420012AAC3 /* Info.plist */,
 			);
 			path = "Homework ClassesUITests";
+			sourceTree = "<group>";
+		};
+		8BC60F9E1C50006C004790C9 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				8BC60F9F1C50006C004790C9 /* LaunchScreen.storyboard */,
+				8BC60FA11C50006C004790C9 /* Main.storyboard */,
+			);
+			path = Base.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +287,9 @@
 			files = (
 				8B4ACEF51BE8B6420012AAC3 /* LaunchScreen.storyboard in Resources */,
 				8B4ACEF21BE8B6420012AAC3 /* Assets.xcassets in Resources */,
+				8BC60FAD1C50006C004790C9 /* Assets.xcassets in Resources */,
+				8BC60FAF1C50006C004790C9 /* Main.storyboard in Resources */,
+				8BC60FAE1C50006C004790C9 /* LaunchScreen.storyboard in Resources */,
 				8B4ACEF01BE8B6420012AAC3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,13 +316,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B4ACEED1BE8B6420012AAC3 /* ViewController.m in Sources */,
-				8B4ACF261BE8B77C0012AAC3 /* Judge.m in Sources */,
 				8B4ACEEA1BE8B6420012AAC3 /* AppDelegate.m in Sources */,
+				8BC60FB11C50006C004790C9 /* Human.m in Sources */,
+				8BC60FB41C50006C004790C9 /* Programmer.m in Sources */,
+				8BC60FB21C50006C004790C9 /* Judge.m in Sources */,
+				8BC60FB01C50006C004790C9 /* Doctor.m in Sources */,
+				8BC60FB31C50006C004790C9 /* Lawyer.m in Sources */,
 				8B4ACEE71BE8B6420012AAC3 /* main.m in Sources */,
-				8B4ACF201BE8B6FA0012AAC3 /* Programmer.m in Sources */,
-				8B4ACF1A1BE8B6A50012AAC3 /* Human.m in Sources */,
-				8B4ACF231BE8B7560012AAC3 /* Lawyer.m in Sources */,
-				8B4ACF1D1BE8B6DE0012AAC3 /* Doctor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +372,22 @@
 				8B4ACEF41BE8B6420012AAC3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8BC60F9F1C50006C004790C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BC60FA01C50006C004790C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8BC60FA11C50006C004790C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BC60FA21C50006C004790C9 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -526,6 +562,7 @@
 				8B4ACF111BE8B6420012AAC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B4ACF121BE8B6420012AAC3 /* Build configuration list for PBXNativeTarget "Homework ClassesTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +571,7 @@
 				8B4ACF141BE8B6420012AAC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B4ACF151BE8B6420012AAC3 /* Build configuration list for PBXNativeTarget "Homework ClassesUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +580,7 @@
 				8B4ACF171BE8B6420012AAC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

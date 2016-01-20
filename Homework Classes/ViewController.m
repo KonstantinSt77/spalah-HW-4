@@ -11,6 +11,7 @@
 #import "Programmer.h"
 #import "Lawyer.h"
 #import "Judge.h"
+#import "Human.h"
 
 @interface ViewController ()
 
@@ -20,44 +21,38 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    Doctor *human1 = [Doctor new];
-    Programmer *human2 = [Programmer new];
-    Lawyer *human3 = [Lawyer new];
-    Judge *Lawyer1 = [Judge new];
-    //почему не работает?
-    //как это оптимизировать что бы допустим вызвать все что
-    //есть у доктора или вызвать все неймы всех классов ну или
-    //вообще любая другая оптимизация что бы столько не писать
+    Doctor *doctor = [Doctor new];
+    Programmer *programmer = [Programmer new];
+    Lawyer *lawyer = [Lawyer new];
+    Judge *judge = [Judge new];
+    Human *human = [Human new];
     
-    [Doctor name];
-    [Doctor age];
     
-    [Programmer name];
-    [Programmer age];
+    //Write a group of classes that will take place inheritance
+    [human name];
     
-    [Lawyer name];
-    [Lawyer age];
-    [Lawyer employer];
+    [doctor name];
+    [doctor age];
+    
+    [programmer name];
+    [programmer age];
+    
+    [lawyer name];
+    [lawyer age];
+    [lawyer employer];
 
     
-    [Judge name];
-    [Judge age];
-    [Lawyer employer];
+    [judge name];
+    [judge age];
     
-    
-    //вообще не знаю как работает по этому пока не использую
-    /* NSArray *arr = @[human1, human2,human3,Lawyer1];
-    
-     
-    for (NSObject* car in arr) {
-        if ([car isKindOfClass:[Human class]])
-        {
-            [(Human *)human name];
-        } else {
-            NSLog(@"Take a crash!");
-        }
-    }
-}*/
+    //Use one of the methods of the class isKindOfClass
+    if ( [doctor isKindOfClass: [Human class]] == YES )
+        NSLog (@"well done");
+              
+
+    //Create separate category for one of the classes
+
+}
     
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

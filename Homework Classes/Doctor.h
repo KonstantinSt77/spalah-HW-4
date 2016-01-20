@@ -1,5 +1,5 @@
 //
-//  Human.m
+//  Doctor.h
 //  Homework Classes
 //
 //  Created by Kostya on 03.11.15.
@@ -8,16 +8,5 @@
 
 #import "Human.h"
 
-@implementation Human
-
-- (NSString *)name
-{
-    return @"Hello im a Human";
-}
-
-- (NSInteger *)age
-{
-    return 50;
-}
-
+@interface Doctor : Human
 @end

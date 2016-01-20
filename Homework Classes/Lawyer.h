@@ -1,13 +1,16 @@
 //
-//  Judge.h
+//  Lawyer.h
 //  Homework Classes
 //
 //  Created by Kostya on 03.11.15.
 //  Copyright © 2015 Stolyarenko K.S. All rights reserved.
 //
 
-#import "Lawyer.h"
+#import "Human.h"
 
-@interface Judge : Lawyer
+@interface Lawyer : Human
+- (NSString *)name;
+- (NSInteger *)age;
+- (NSString *)employer;
 
 @end

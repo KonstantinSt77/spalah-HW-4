@@ -9,5 +9,6 @@
 #import "Human.h"
 
 @interface Programmer : Human
-
+- (NSString *)name;
+- (NSInteger *)age;
 @end

@@ -10,12 +10,14 @@
 
 @implementation Programmer
 - (NSString *)name {
-    return @"Hello im a Programmer";
+    NSLog(@"Hello im a Programmer");
+    return 0;
 }
 
 
 - (NSInteger *)age
 {
-    return 23;
+    NSLog(@"23");
+    return 0;
 }
 @end

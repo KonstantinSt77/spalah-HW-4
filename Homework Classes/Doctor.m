@@ -1,13 +1,13 @@
 //
-//  Human.h
+//  Doctor.m
 //  Homework Classes
 //
 //  Created by Kostya on 03.11.15.
 //  Copyright © 2015 Stolyarenko K.S. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "Doctor.h"
 
-@interface Human : NSObject
+@implementation Doctor
 
 @end

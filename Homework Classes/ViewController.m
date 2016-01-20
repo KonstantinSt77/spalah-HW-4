@@ -45,6 +45,8 @@
     [judge name];
     [judge age];
     
+    [human weight]; //???
+    
     //Use one of the methods of the class isKindOfClass
     if ( [doctor isKindOfClass: [Human class]] == YES )
         NSLog (@"well done");
